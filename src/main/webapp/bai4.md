@@ -19,7 +19,7 @@ View:
   ${message}
 
 Test lỗi: http://localhost:8080/bai4/products?category=chay&limit=abc
-![img.png](img.png)
+![img_2.png](img_2.png)
 
 Do biến limit khai báo kiểu int nhưng người dùng truyền "abc" (String),
 Spring không thể ép kiểu nên xảy ra lỗi Type Mismatch và trả về 400 Bad Request.

@@ -1,4 +1,4 @@
-package com.restaurant.bai1.service;
+package com.restaurant.bai1.repository;
 
 import org.springframework.stereotype.Repository;
 

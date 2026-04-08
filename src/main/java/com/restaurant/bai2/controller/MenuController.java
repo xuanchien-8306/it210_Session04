@@ -19,7 +19,7 @@ public class MenuController {
     @GetMapping("/menu")
     @ResponseBody
     public String getMenu(
-            @RequestParam(value = "category", required = false, defaultValue = "chay")
+            @RequestParam("category")
             String category) {
 
         return "Menu loai: " + category;
